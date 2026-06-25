@@ -7,7 +7,7 @@ A highly responsive, feature-rich custom video player built entirely in React. T
 
 ## 🚀 Live Demo
 
-**[Insert Your Vercel/Netlify Link Here Once Deployed]**
+**pookievideoplayer.vercel.app**
 
 ## ✨ Key Features
 
