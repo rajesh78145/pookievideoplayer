@@ -30,7 +30,6 @@ function App() {
   const [isSimulatingLoad, setIsSimulatingLoad] = useState(false);
   const [showControls, setShowControls] = useState(true);
 
-  // --- MOUSE IDLE LOGIC ---
   const resetControlsTimeout = () => {
     setShowControls(true);
     if (controlsTimeoutRef.current) clearTimeout(controlsTimeoutRef.current);
