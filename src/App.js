@@ -48,7 +48,6 @@ function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isPlaying]);
 
-  // --- HANDLERS ---
   const togglePlay = () => {
     if (isSimulatingLoad || !videoRef.current) return;
 
@@ -109,7 +108,7 @@ function App() {
     videoRef.current.currentTime += amount;
   };
 
-  // --- KEYBOARD SHORTCUTS ---
+ 
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (
